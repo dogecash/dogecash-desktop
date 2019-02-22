@@ -177,7 +177,7 @@
     "angularx-qrcode": "^1.0.1",
     "checksum": "^0.1.1",
     "codelyzer": "^4.1.0",
-    "coveralls": "^3.0.0",
+    "coveralls": "^3.0.3",
     "electron": "4.0.3",
     "electron-builder": "^20.38.5",
     "htmlhint": "^0.9.13",
