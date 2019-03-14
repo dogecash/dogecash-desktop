@@ -8,7 +8,7 @@ exports.init = function () {
 
   log.transports.file.appName = process.platform == 'linux'
     ? 'particl-desktop'
-    : 'Particl Desktop';
+    : 'DogeCash Desktop';
   let logPath = options.testnet
     ? 'particl-desktop-testnet.log'
     : 'particl-desktop.log';

@@ -209,7 +209,7 @@ function makeTray() {
           click() { electron.shell.openExternal('https://particl.io/#about'); }
         },
         {
-          label: 'Visit Particl.io',
+          label: 'Visit dogec.io',
           click() { electron.shell.openExternal('https://particl.io'); }
         },
         {
@@ -229,7 +229,7 @@ function makeTray() {
   // }
 
   // Set the tray icon
-  tray.setToolTip('Particl ' + app.getVersion());
+  tray.setToolTip('DogeCash ' + app.getVersion());
   tray.setContextMenu(contextMenu)
 
   // Always show window when tray icon clicked

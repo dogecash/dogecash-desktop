@@ -99,7 +99,7 @@ var getAssetDetails = function (asset, hashes, version) {
       commands: {
         sanity: {
           args: ["-version"],
-          output: ["Particl Core Daemon", version]
+          output: ["DogeCash Core Daemon", version]
         }
       }
     }
@@ -135,7 +135,7 @@ var getHashesForPlatform = function (platform, path, hashes) {
 
 /*
  * Entry point
- * get Particl latest release files
+ * get DogeCash latest release files
  */
 got(`${releasesURL}`).then(response => {
   const body = JSON.parse(response.body);

@@ -1,17 +1,17 @@
 <!-- STEP 0: Choose action -->
 <ng-template [ngIf]="step === 0">
 
-  <div mat-dialog-title class="title">Welcome to Particl Desktop</div>
+  <div mat-dialog-title class="title">Welcome to DogeCash Desktop</div>
   <mat-dialog-content class="modal-content">
     <p>
-      Particl Desktop is a feature-rich client for interacting with Particl network.<br>
+      DogeCash Desktop is a feature-rich client for interacting with DogeCash network.<br>
     </p>
     <p class="info">
       Visit <a href="https://particl.io" target="_blank" tabindex="-1">particl.io</a> official site for more info, <a href="https://particl.news" target="_blank" tabindex="-1">particl.news</a> for latest news and <a href="https://particl.wiki" target="_blank" tabindex="-1">particl.wiki</a> if you need any help
     </p>
     <div class="subtitle">Create or restore wallet</div>
     <p>
-      In order to connect to Particl network, you need to have a wallet. If you're using Particl for the first time, create a new wallet or restore existing wallet (using your Recovery Passphrase) if you have one already.
+      In order to connect to DogeCash network, you need to have a wallet. If you're using DogeCash for the first time, create a new wallet or restore existing wallet (using your Recovery Passphrase) if you have one already.
     </p>
     <p class="widget-help" *ngIf="!isCrypted">
       It is recommended to encrypt your wallet before creating or restoring a wallet, in order to not leave any possible key fragments lying around.
@@ -30,7 +30,7 @@
         <mat-icon fontSet="partIcon" fontIcon="part-lock-open"></mat-icon>
         Restore wallet
       </button>
-      <button mat-raised-button color="primary" (click)="initialize(1);" matTooltip="If you haven't used Particl before or want to create a new, separate wallet">
+      <button mat-raised-button color="primary" (click)="initialize(1);" matTooltip="If you haven't used DogeCash before or want to create a new, separate wallet">
         <mat-icon fontSet="partIcon" fontIcon="part-add-account"></mat-icon>
         Create new wallet
       </button>
@@ -249,7 +249,7 @@
       Please ensure that your Recovery Phrase (and Passphrase if you set it up) is written down and stored in a secure location!
     </p>
     <p>
-      You can now safely close this window and start experiencing Particl!
+      You can now safely close this window and start experiencing DogeCash!
     </p>
   </mat-dialog-content>
   <mat-dialog-actions fxLayoutAlign="end center">

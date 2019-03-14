@@ -5,14 +5,14 @@ const log         = require('electron-log');
 const options    = require('../options').get();
 const removeWalletAuthentication = require('../webrequest/http-auth').removeWalletAuthentication;
 /*
-** returns Particl config folder
+** returns DogeCash config folder
 */
 function getDefaultParticlCorePath() {
 
   let homeDir = os.homedir ? os.homedir() : process.env['HOME'];
 
   let dir,
-      appName = 'Particl';
+      appName = 'DogeCash';
   switch (process.platform) {
     case 'linux': {
       dir = prepareDir(homeDir, '.' + appName.toLowerCase()).result;
