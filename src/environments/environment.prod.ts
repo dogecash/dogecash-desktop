@@ -6,5 +6,5 @@ export const environment = {
   releasesUrl: 'https://api.github.com/repos/dogecash/dogecash/releases/latest',
   envName: 'prod',
   particlHost: 'localhost',
-  particlPort: 51735
+  particlPort: 38843
 };
