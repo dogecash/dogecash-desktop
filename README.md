@@ -28,24 +28,24 @@ We provide a decentralized privacy platform with a suite of tools to enhance you
 * **A private marketplace** – buy and sell goods without leaving a trace (WIP on `market` branch)
 * **Community governance** – anyone can submit proposals to DogeCash network via decentralized voting & governance (WIP on `market` branch)
 
-This repository is the user interface that works in combination with our [`particl-core`](https://github.com/particl/particl-core).
+This repository is the user interface that works in combination with our [`dogecash-core`](https://github.com/dogecash/dogecash-core).
 
 #### Download
 
-[![Download the packaged wallet for Mac, Windows and Linux](download-button.png)](https://github.com/particl/particl-desktop/releases)
+[![Download the packaged wallet for Mac, Windows and Linux](download-button.png)](https://github.com/dogecash/dogecash-desktop/releases)
 
 
 ## Contribute
 
-[![Snyk](https://snyk.io/test/github/particl/particl-desktop/badge.svg)](https://snyk.io/test/github/particl/particl-desktop)
-[![Build Status](https://travis-ci.org/particl/particl-desktop.svg?branch=master)](https://travis-ci.org/particl/particl-desktop)
-[![Coverage Status](https://coveralls.io/repos/github/particl/particl-desktop/badge.svg?branch=master)](https://coveralls.io/github/particl/particl-desktop?branch=master)
-[![Code Climate](https://codeclimate.com/github/particl/particl-desktop/badges/gpa.svg)](https://codeclimate.com/github/particl/particl-desktop)
-[![Greenkeeper badge](https://badges.greenkeeper.io/particl/particl-desktop.svg)](https://greenkeeper.io/)
+[![Snyk](https://snyk.io/test/github/dogecash/dogecash-desktop/badge.svg)](https://snyk.io/test/github/dogecash/dogecash-desktop)
+[![Build Status](https://travis-ci.org/dogecash/dogecash-desktop.svg?branch=master)](https://travis-ci.org/dogecash/dogecash-desktop)
+[![Coverage Status](https://coveralls.io/repos/github/dogecash/dogecash-desktop/badge.svg?branch=master)](https://coveralls.io/github/dogecash/dogecash-desktop?branch=master)
+[![Code Climate](https://codeclimate.com/github/dogecash/dogecash-desktop/badges/gpa.svg)](https://codeclimate.com/github/dogecash/dogecash-desktop)
+[![Greenkeeper badge](https://badges.greenkeeper.io/dogecash/dogecash-desktop.svg)](https://greenkeeper.io/)
 
 For contributing to DogeCash Desktop, please read our [Contributing Guidelines](CONTRIBUTING.md) first.
 
-Join us in [#particl-dev:matrix.org](https://riot.im/app/#/room/#particl-dev:matrix.org) on [Riot](https://riot.im) for more info and/or assistance.
+Join us in [#dogecash-dev:matrix.org](https://riot.im/app/#/room/#dogecash-dev:matrix.org) on [Riot](https://riot.im) for more info and/or assistance.
 
 
 ## Getting started
@@ -59,8 +59,8 @@ Join us in [#particl-dev:matrix.org](https://riot.im/app/#/room/#particl-dev:mat
 ### Installation
 
 ```bash
-git clone https://github.com/particl/particl-desktop
-cd particl-desktop
+git clone https://github.com/dogecash/dogecash-desktop
+cd dogecash-desktop
 yarn install
 ```
 
@@ -74,12 +74,12 @@ yarn install
    * `-reindex` – reindexes the blockchain (in case you're stuck)
    * `--devtools` – automatically opens Developer Tools on client launch
 
-#### Interact with particl-core daemon
+#### Interact with dogecash-core daemon
 
 You can directly interact with the daemon ran by the Electron version.
 
 ```
-./particl-cli -testnet getblockchaininfo
+./dogecash-cli -testnet getblockchaininfo
 ```
 
 ### Packaging
@@ -114,13 +114,13 @@ yarn run start:electron:dev -testnet --devtools -reindex
 #### Marketplace fails to load
 Delete marketplace `database` folder and restart app:
 
-* Windows: `%appdata%\particl-market\testnet\`
-* macOS: `~/Library/Application Support/DogeCash/particl-market/testnet/`
-* Linux: `~/.particl-market/testnet/`
+* Windows: `%appdata%\dogecash-market\testnet\`
+* macOS: `~/Library/Application Support/DogeCash/dogecash-market/testnet/`
+* Linux: `~/.dogecash-market/testnet/`
 
 ### Other issues
 
-See our [DogeCash Wiki](https://particl.wiki/) for most common problems or join [#particlhelp:matrix.org](https://riot.im/app/#/room/#particlhelp:matrix.org) on [Riot](https://riot.im) for community help.
+See our [DogeCash Wiki](https://dogecash.wiki/) for most common problems or join [#dogecashhelp:matrix.org](https://riot.im/app/#/room/#dogecashhelp:matrix.org) on [Riot](https://riot.im) for community help.
 
 
 ## Licence

@@ -28,7 +28,7 @@
       <div class="sidebar" fxFlex="0 0 180px">
         <!-- QR code -->
         <div #qrCode class="qrcode">
-          <qrcode size="180" [level]="'H'" qrdata="particl:{{ selected?.address }}">
+          <qrcode size="180" [level]="'H'" qrdata="dogecash:{{ selected?.address }}">
           </qrcode>
         </div><!-- qrcode -->
       </div>
@@ -94,7 +94,7 @@
         </button>
       </div>
       <div class="right" fxFlex="70%">
-        <a mat-button matTooltip="Display address' public information on Block Explorer" href="https://explorer{{testnet ? '-testnet' : ''}}.particl.io/address/{{selected?.address}}" target="_blank">
+        <a mat-button matTooltip="Display address' public information on Block Explorer" href="https://explorer{{testnet ? '-testnet' : ''}}.dogecash.io/address/{{selected?.address}}" target="_blank">
           <mat-icon fontSet="partIcon" fontIcon="part-info"></mat-icon>
           Show on Explorer
         </a>

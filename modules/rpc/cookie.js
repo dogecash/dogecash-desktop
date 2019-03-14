@@ -97,7 +97,7 @@ function mkDir(dirPath, root) {
 
 /*
 ** returns the current RPC cookie
-** RPC cookie is regenerated at every particld startup
+** RPC cookie is regenerated at every dogecashd startup
 */
 function getAuth(options) {
 

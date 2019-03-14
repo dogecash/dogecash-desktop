@@ -1,12 +1,12 @@
 {
-  "name": "particl-desktop",
+  "name": "dogecash-desktop",
   "version": "1.3.1",
   "branch": "1.3.1",
   "license": "GPL-2.0",
   "description": "DogeCash Desktop - decentralized marketplace, private currency, messaging & self-governance",
-  "homepage": "https://particl.io",
+  "homepage": "https://dogec.io",
   "keywords": [
-    "particl",
+    "dogecash",
     "angular2",
     "angular4",
     "angular5",
@@ -48,10 +48,10 @@
     "travis:test": "ng test --single-run --code-coverage",
     "start": "yarn run start:mainnet"
   },
-  "productName": "particl-desktop",
+  "productName": "dogecash-desktop",
   "build": {
     "electronVersion": "4.0.3",
-    "appId": "io.particl.desktop",
+    "appId": "io.dogecash.desktop",
     "npmRebuild": true,
     "directories": {
       "buildResources": "resources",
@@ -107,9 +107,9 @@
       ]
     },
     "linux": {
-      "maintainer": "particl contributors <hello@particl.io>",
+      "maintainer": "dogecash contributors <hello@dogecash.io>",
       "artifactName": "${name}-${version}-${os}-${arch}.${ext}",
-      "executableName": "particl-desktop",
+      "executableName": "dogecash-desktop",
       "target": [
         {
           "target": "deb",
@@ -126,9 +126,9 @@
       ],
       "desktop": {
         "Comment": "DogeCash, P2P Privacy ecosystem",
-        "Icon": "particl-desktop",
+        "Icon": "dogecash-desktop",
         "Name": "DogeCash Desktop",
-        "Path": "/opt/particl-desktop",
+        "Path": "/opt/dogecash-desktop",
         "StartupNotify": "true",
         "Terminal": "false",
         "Type": "Application",

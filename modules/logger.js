@@ -7,11 +7,11 @@ exports.init = function () {
   log.transports.file.level    = 'debug';
 
   log.transports.file.appName = process.platform == 'linux'
-    ? 'particl-desktop'
+    ? 'dogecash-desktop'
     : 'DogeCash Desktop';
   let logPath = options.testnet
-    ? 'particl-desktop-testnet.log'
-    : 'particl-desktop.log';
+    ? 'dogecash-desktop-testnet.log'
+    : 'dogecash-desktop.log';
   log.transports.file.file = log.transports.file
     .findLogPath(log.transports.file.appName)
     .replace('log.log', logPath);

@@ -9,7 +9,7 @@ const platform      = require('os').platform();
 
 /* correct appName and userData to respect Linux standards */
 if (process.platform === 'linux') {
-  app.setName('particl-desktop');
+  app.setName('dogecash-desktop');
   app.setPath('userData', `${app.getPath('appData')}/${app.getName()}`);
 }
 
@@ -42,7 +42,7 @@ app.on('ready', () => {
   log.debug('argv', process.argv);
   log.debug('options', options);
   
-  app.setAppUserModelId("io.particl.desktop");
+  app.setAppUserModelId("io.dogecash.desktop");
   
   // initialize the authentication filter
   _auth.init();
@@ -206,11 +206,11 @@ function makeTray() {
       submenu: [
         {
           label: 'About ' + app.getName(),
-          click() { electron.shell.openExternal('https://particl.io/#about'); }
+          click() { electron.shell.openExternal('https://dogec.io/'); }
         },
         {
           label: 'Visit dogec.io',
-          click() { electron.shell.openExternal('https://particl.io'); }
+          click() { electron.shell.openExternal('https://dogec.io'); }
         },
         {
           label: 'Visit Electron',

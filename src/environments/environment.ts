@@ -9,6 +9,6 @@ export const environment = {
   envName: 'dev',
   version: require('../../package.json').version,
   releasesUrl: 'https://api.github.com/repos/dogecash/dogecash/latest',
-  particlHost: 'localhost',
-  particlPort: 51935
+  dogecashHost: 'localhost',
+  dogecashPort: 51935
 };
