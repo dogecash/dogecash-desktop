@@ -2,8 +2,8 @@ var got = require("got");
 var fs = require('fs');
 
 var releasesURL = "https://api.github.com/repos/dogecash/dogecash/releases";
-var signaturesURL = "https://api.github.com/repos/dogecash/gitian.sigs/contents";
-var maintainer = "tecnovert";
+var signaturesURL = "https://api.github.com/repos/PIVX-Project/gitian.sigs/contents";
+var maintainer = "fuzzbawls";
 
 /*
  * Filters a hash file to find this asset's hash
