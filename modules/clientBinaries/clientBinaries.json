@@ -6,7 +6,7 @@
         "linux": {
           "arm": {
             "download": {
-              "url": "https://github.com/dogecash/dogecash/releases/download/3.0.0/dogecash-arm-linux-gnueabihf.tar.gz",
+              "url": "https://github.com/dogecash/dogecash/releases/download/3.0.0/dogecash-3.0.0-arm-linux-gnueabihf.tar.gz",
               "type": "tar",
               "sha256": "34d0dd632d7ecbaf7e133741b81ef138a10f2c3b3c21bf00011c71bf8293cefb",
               "bin": "dogecash/bin/dogecashd"
@@ -26,7 +26,7 @@
           },
           "ia32": {
             "download": {
-              "url": "https://github.com/dogecash/dogecash/releases/download/3.0.0/dogecash-i686-pc-linux-gnu_nousb.tar.gz",
+              "url": "https://github.com/dogecash/dogecash/releases/download/3.0.0/dogecash-3.0.0-i686-pc-linux-gnu_nousb.tar.gz",
               "type": "tar",
               "sha256": "e6deca93648513ffe074e797cf6a612f063ddd40ea038172009e3f0098bcb5e4",
               "bin": "dogecash/bin/dogecashd"
@@ -46,7 +46,7 @@
           },
           "x64": {
             "download": {
-              "url": "https://github.com/dogecash/dogecash/releases/download/3.0.0/dogecash-x86_64-linux-gnu_nousb.tar.gz",
+              "url": "https://github.com/dogecash/dogecash/releases/download/3.0.0/dogecash-3.0.0-x86_64-linux-gnu_nousb.tar.gz",
               "type": "tar",
               "sha256": "97a6d8654bdf225bb1321db86d75f9b0d3cba86f2faad86b697a9649d3ce8892",
               "bin": "dogecash/bin/dogecashd"
@@ -68,7 +68,7 @@
         "mac": {
           "x64": {
             "download": {
-              "url": "https://github.com/dogecash/dogecash/releases/download/3.0.0/dogecash-osx64.tar.gz",
+              "url": "https://github.com/dogecash/dogecash/releases/download/3.0.0/dogecash-3.0.0-osx64.tar.gz",
               "type": "tar",
               "sha256": "6465e4ad63c87faf6bf241d1ea83ec2481d5a76108850408e78a33216d4e35f1",
               "bin": "dogecash/bin/dogecashd"
@@ -90,7 +90,7 @@
         "win": {
           "ia32": {
             "download": {
-              "url": "https://github.com/dogecash/dogecash/releases/download/3.0.0/dogecash-win32.zip",
+              "url": "https://github.com/dogecash/dogecash/releases/download/3.0.0/dogecash-3.0.0-win32.zip",
               "type": "zip",
               "sha256": "8e4fcfcf1f9fea13598fdc83c5624ffc0cd0e8b53602a2816e1aadb3fa46a9cb",
               "bin": "dogecash/bin/dogecashd.exe"
@@ -110,7 +110,7 @@
           },
           "x64": {
             "download": {
-              "url": "https://github.com/dogecash/dogecash/releases/download/3.0.0/dogecash-win64.zip",
+              "url": "https://github.com/dogecash/dogecash/releases/download/3.0.0/dogecash-3.0.0-win64.zip",
               "type": "zip",
               "sha256": "7000e88e993bb7aee94e853fd166c9546a904fc9081acf30036d8242b892a8d1",
               "bin": "dogecash/bin/dogecashd.exe"
