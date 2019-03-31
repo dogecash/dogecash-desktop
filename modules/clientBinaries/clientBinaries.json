@@ -70,7 +70,7 @@
             "download": {
               "url": "https://github.com/dogecash/dogecash/releases/download/3.0.0/dogecash-3.0.0-osx64.tar.gz",
               "type": "tar",
-              "sha256": "6465e4ad63c87faf6bf241d1ea83ec2481d5a76108850408e78a33216d4e35f1",
+              "sha256": "eba6a0978120b51b59a1554ed178d7a0491826de311876935149ca22111d26e8",
               "bin": "dogecash/bin/dogecashd"
             },
             "bin": "dogecashd",
